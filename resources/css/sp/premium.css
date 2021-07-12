@@ -1,0 +1,486 @@
+@charset "UTF-8";
+
+
+
+/* settings */
+article.sp-premium {
+	width: 100%;
+	height: auto;
+	color: #585858;
+}
+article.sp-premium img {
+	width: 100%;
+	height: auto;
+!important}
+
+/* key_visual */
+.spp-key_visual {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background:url(/css/sp/assets/images/bg-pat-dotted-low.png) repeat 0 0,linear-gradient(to bottom, rgba(79,146,150,1), rgba(44,100,104,1)100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f9296', endColorstr='#356b6f',GradientType=0 );
+	background-size:10px 10px,100% 100%;
+	padding: 15px 15px 33px 15px;
+}
+.spp-key_visual p {
+	margin: 5px auto 0 auto;
+	color: #fff;
+	text-align: center;
+	font-size: 11px;
+}
+.btn-spp-key_visual {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	bottom:-23px;
+	left: 0;
+}
+.btn-spp-key_visual a {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	background: #e7740e url(/css/sp/assets/images/ico-list-down-arrow.svg) no-repeat right 5px center;
+	background-size:25px 25px, 100% 100%;
+	color: #fff;
+	text-align: center;
+	border: 2px solid #fff;
+	border-radius:5px;
+	font-size: 18px;
+	line-height: 1em;
+	padding: 12px 0;
+}
+
+/* service_feature */
+.spp-service_feature {
+	padding: 18px 0 0 0;
+}
+.title-spp-service_feature {
+	background:#daf1f3 url(/css/sp/assets/images/bg-pat-dotted.png) repeat 0 0;
+	background-size:10px 10px,100% 100%;
+	color: #197276;
+	text-align: center;
+	font-size: 18px;
+	padding: 0.75em 0;
+	font-weight: bold;
+}
+ul.list-spp-service_feature {
+	list-style: none;
+	padding: 0 15px;
+	margin: 0;
+}
+
+ul.list-spp-service_feature li {
+	width: 100%;
+	height: auto;
+  display: -webkit-flex;
+	display: flex;
+	margin: 10px 0 0 0;
+}
+.thumb-spp-service_feature {
+	width: 40%;
+	height: auto;
+}
+dl.data-spp-service_feature {
+	width: 60%;
+	height: auto;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+dl.data-spp-service_feature dt {
+	color: #1a878c;
+	font-size: 14px;
+}
+dl.data-spp-service_feature dd {
+	color: #1a878c;
+	font-size: 12px;
+	color: #4f4f4f;
+	margin: 5px auto 0 auto;
+	padding: 0;
+}
+
+/* service_feature */
+.spp-function {
+	padding: 20px 0 0 0;
+
+}
+.spp-how_can_premium {
+	color: #197276;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.spp-how_can_premium::before {
+	content: "";
+	display: inline-block;
+	background: #197276;
+	width: 2px;
+	height: 1.5em;
+	transform: rotate(-15deg);
+	margin: 0 0.5em -0.35em 0;
+}
+.spp-how_can_premium::after {
+	content: "";
+	display: inline-block;
+	background: #197276;
+	width: 2px;
+	height: 1.5em;
+	transform: rotate(15deg);
+	margin: 0 0 -0.35em 0.5em;
+}
+h2.title-spp-function_view {
+	position: relative;
+	background:#daf1f3 url(/css/sp/assets/images/bg-pat-dotted.png) repeat 0 0;
+	background-size:10px 10px,100% 100%;
+	color: #197276;
+	text-align: left;
+	font-size: 18px;
+	padding: 0.75em 0 0.75em 105px;
+	font-weight: bold;
+	margin: 10px auto 0 auto;
+}
+h2.title-spp-function_view::before {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	content: "";
+	width: 80px;
+	height: 60px;
+	background:url(/css/sp/assets/images/ico-title-search.png) no-repeat 0 0;
+	background-size:80px 60px,100% 100%;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+h2.title-spp-function_post {
+	position: relative;
+	background:#daf1f3 url(/css/sp/assets/images/bg-pat-dotted.png) repeat 0 0;
+	background-size:10px 10px,100% 100%;
+	color: #197276;
+	text-align: left;
+	font-size: 18px;
+	padding: 0.75em 0 0.75em 105px;
+	font-weight: bold;
+	margin: 10px auto 0 auto;
+}
+h2.title-spp-function_post::before {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	content: "";
+	width: 80px;
+	height: 60px;
+	background:url(/css/sp/assets/images/ico-title-submit.png) no-repeat 0 0;
+	background-size:80px 60px,100% 100%;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+
+.inner-spp-can_premium {
+	padding: 15px;
+
+}
+table.table-spp-can_premium {
+	width: 100%;
+	height: auto;
+}
+table.table-spp-can_premium th.blank {
+	border: none !important;
+	background: none;
+}
+table.table-spp-can_premium th,
+table.table-spp-can_premium td {
+	border: 2px solid #cfcfcf;
+	padding: 5px;
+	font-size: 10px;
+}
+table.table-spp-can_premium th {
+	background: #f4f4f4;
+}
+table.table-spp-can_premium th.free_member {
+	text-align: center;
+	border-right: 2px solid #4f9296;
+}
+table.table-spp-can_premium th.premium_member {
+	position: relative;
+	text-align: center;
+	background: #4f9296;
+	color: #fff;
+	border: 2px solid #4f9296;
+}
+table.table-spp-can_premium th.premium_member::before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: -2px;
+	width: 100%;
+	height: 5px;
+	border: 2px solid #4f9296;
+	border-radius:3px 3px 0 0;
+	background: #4f9296;
+	box-sizing: content-box !important;
+}
+table.table-spp-can_premium td {
+	width: 30%;
+	text-align: center;
+}
+table.table-spp-can_premium td img {
+	width: 30%;
+	height: auto;
+}
+table.table-spp-can_premium td span {
+	display: block;
+	text-align: center;
+	font-size: 9px;
+}
+table.table-spp-can_premium td.free_member {
+	border-right: 2px solid #4f9296;
+}
+table.table-spp-can_premium td.premium_member {
+	border-left: 2px solid #4f9296;
+	border-right: 2px solid #4f9296;
+	background: #f0feff;
+	color: #4f9296;
+}
+
+/* price_plan */
+.spp-price_plan {
+}
+h2.title-spp-price_plan {
+	position: relative;
+	background:#daf1f3 url(/css/sp/assets/images/bg-pat-dotted.png) repeat 0 0;
+	background-size:10px 10px,100% 100%;
+	color: #197276;
+	text-align: left;
+	font-size: 18px;
+	padding: 0.75em 0 0.75em 85px;
+	font-weight: bold;
+	margin: 10px auto 0 auto;
+}
+h2.title-spp-price_plan::before {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	content: "";
+	width: 80px;
+	height: 60px;
+	background:url(/css/sp/assets/images/image-diamond.png) no-repeat 0 0;
+	background-size:60px 60px,100% 100%;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+.inner-spp-price_plan {
+	width: 100%;
+	height: auto;
+	padding: 15px;
+}
+.inner-spp-price_plan p {
+	font-size: 16px;
+}
+ul.list-spp-price_plan {
+	list-style: none;
+	background: #f1f1f1;
+	border-radius:3px;
+	padding: 0 10px;
+}
+ul.list-spp-price_plan li {
+	padding: 8px 0 8px 23px;
+	border-bottom: 1px dotted #a8a8a8;
+	line-height: 1.2em;
+	background: url(/css/sp/assets/images/ico-list-check.svg) no-repeat 0 7px;
+	background-size:20px 20px,100% 100%;
+}
+ul.list-spp-price_plan li:last-child {
+	border: none;
+}
+
+/* regist_member */
+.spp-regist_member {
+	position: relative;
+	background:#fbf3e5 url(/css/sp/assets/images/bg-pat-dotted.png) repeat 0 0;
+	width: 100%;
+	height: auto;
+}
+h2.title-spp-regist_member {
+	position: relative;
+	background:#e7740e url(/css/sp/assets/images/bg-pat-dotted-low.png) repeat 0 0;
+	background-size:10px 10px,100% 100%;
+	color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	padding: 0.75em 0;
+	font-weight: bold;
+	margin: 0;
+}
+.inner-spp-resgist_member {
+	padding: 15px;
+}
+.data-spp-regist_member {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding: 10px 10px 15px 10px;
+	border-radius:3px;
+}
+.data-spp-regist_member h3 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+	background:url(/css/sp/assets/images/ico-list-orange-gear.svg) no-repeat 0 50%;
+	padding: 0 0 0 1.3em;
+}
+.data-spp-regist_member h3 span {
+	font-size: 12px;
+}
+.spp-icon_free {
+	position: absolute;
+	width: 56px;
+	height: 56px;
+	top: -20px;
+	right: -10px;
+	background: #cf0f30;
+	border-radius:50%;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px;
+/*	transform: rotate(15deg);*/
+}
+.spp-icon_free span {
+	display: block;
+	width: 52px;
+	height: 52px;
+	font-size: 15px;
+	color: #fff;
+	line-height: 1em;
+	padding: 8px;
+	border: 2px dotted #ec94a3;
+	border-radius:50%;
+}
+
+.btn-spp-regist_free {
+	width: 100%;
+	height: auto;
+	margin: 10px auto 0 auto;
+}
+.btn-spp-regist_free a {
+	display:block;
+	color: #ffffff;
+	text-align: center;
+	border-radius:3px;
+	padding: 0.5em 0;
+	font-size: 18px;
+	font-weight: bold;
+	background:#e7740e url(/css/sp/assets/images/ico-list-right-arrow.svg) no-repeat right 50%;
+	background-size:1.5em 1.5em,100% 100%;
+
+}
+.btn-spp-regist_free button {
+	display:block;
+	width:100%;
+	border:0px;background-color:transparent;cursor:pointer;
+	color: #ffffff;
+	text-align: center;
+	border-radius:3px;
+	padding: 0.5em 0;
+	font-size: 18px;
+	font-weight: bold;
+	background:#e7740e url(/css/sp/assets/images/ico-list-right-arrow.svg) no-repeat right 50%;
+	background-size:1.5em 1.5em,100% 100%;
+}
+
+.spp-available_method {
+	width: 100%;
+	height: auto;
+	margin: 10px auto 0 auto;
+}
+.title-spp-available_method {
+	font-size: 14px;
+	line-height: 14px;
+	padding: 7px 14px;
+	display: inline-block;
+	background: #efefef;
+	border-radius:14px;
+}
+ul.list-spp-available_method {
+	width: 100%;
+	height: auto;
+	list-style: none;
+  display: -webkit-flex;
+	display: flex;
+  -webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+ul.list-spp-available_method li {
+	width: auto;
+	height: 25px;
+	padding: 5px;
+
+}
+ul.list-spp-available_method li img {
+	width: auto !important;
+	height: 100% !important;
+}
+
+ul.list-spp-payment_all {
+	list-style: none;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 5px auto 0 auto;
+}
+ul.list-spp-payment_all li {
+  display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	padding: 5px;
+	border-bottom:1px dotted #c8c8c8;
+}
+.spp-payment_all-month {
+	font-size: 18px;
+	line-height: 1em;
+	padding: 0.5em 0;
+}
+.spp-payment_all-month span {
+	font-size: 14px;
+}
+.spp-payment_all-button {
+	text-align: right;
+}
+.spp-payment_all-button a {
+	font-size: 16px;
+	display: block;
+	background: #e7740e url(/css/sp/assets/images/ico-list-right-arrow.svg) no-repeat right 50%;
+	background-size:1em 1em, 100% 100%;
+	color: #fff;
+	border-radius:3px;
+	padding:0.5em 1em 0.5em 0.5em;
+	line-height: 1em;
+}
+
+.spp-payment_all-button a span {
+	font-size: 12px;
+}
+
+.spp-payment_all-button button {
+	font-size: 16px;
+	display: block;
+	background: #e7740e url(/css/sp/assets/images/ico-list-right-arrow.svg) no-repeat right 50%;
+	background-size:1em 1em, 100% 100%;
+	color: #fff;
+	border-radius:3px;
+	padding:0.5em 1em 0.5em 0.5em;
+	line-height: 1em;
+	border:0px;background-color:transparent;cursor:pointer;
+}
+.spp-payment_all-button button span {
+	font-size: 12px;
+}
+.notice-spp-payment_all {
+	font-size: 10px;
+	margin: 5px auto 0 auto;
+	padding: 0;
+}
